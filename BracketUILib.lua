@@ -960,7 +960,7 @@ function Library:CreateWindow(title, color)
                 colorpicker.BackgroundColor3 = def
                 colorpicker.BorderColor3 = Color3.fromRGB(8, 8, 8)
                 colorpicker.Position = UDim2.new(0.0399999991, 0, 0.734939754, 0)
-                colorpicker.Size = UDim2.new(0, 16, 0, 10)
+                colorpicker.Size = UDim2.new(0, 19, 0, 19)
                 colorpicker.ZIndex = 0
                 
                 UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(167, 167, 167))}
@@ -971,7 +971,7 @@ function Library:CreateWindow(title, color)
                 title_17.Parent = colorpicker
                 title_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
                 title_17.BackgroundTransparency = 1.000
-                title_17.Position = UDim2.new(1.58333337, 0, 0, 0)
+                title_17.Position = UDim2.new(1.5833323, 0, 0, 0)
                 title_17.Size = UDim2.new(0, 203, 0, 19)
                 title_17.Font = Enum.Font.SourceSans
                 title_17.Text = name
