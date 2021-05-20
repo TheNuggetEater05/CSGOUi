@@ -36,7 +36,7 @@ function Library:CreateWindow(title, color)
     local WinTypes = {}
     local WindowDragging, SliderDragging, ColorPickerDragging = false, false, false
     local oldcolor = nil
-    local keybind = "RightControl"
+    local keybind = "Insert"
     local cancbind = false
 
     -- Window Instances
@@ -971,7 +971,7 @@ function Library:CreateWindow(title, color)
                 title_17.Parent = colorpicker
                 title_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
                 title_17.BackgroundTransparency = 1.000
-                title_17.Position = UDim2.new(1.5833323, 0, 0, 0)
+                title_17.Position = UDim2.new(1.5, 0, 0, 0)
                 title_17.Size = UDim2.new(0, 203, 0, 19)
                 title_17.Font = Enum.Font.SourceSans
                 title_17.Text = name
