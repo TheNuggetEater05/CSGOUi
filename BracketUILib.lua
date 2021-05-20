@@ -960,7 +960,7 @@ function Library:CreateWindow(title, color)
                 colorpicker.BackgroundColor3 = def
                 colorpicker.BorderColor3 = Color3.fromRGB(8, 8, 8)
                 colorpicker.Position = UDim2.new(0.0399999991, 0, 0.734939754, 0)
-                colorpicker.Size = UDim2.new(0, 15, 0, 12)
+                colorpicker.Size = UDim2.new(0, 12, 0, 12)
                 colorpicker.ZIndex = 0
                 
                 UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(167, 167, 167))}
